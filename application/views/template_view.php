@@ -7,6 +7,13 @@
     <title>Главная</title>
 </head>
 
-<body><?php include 'application/views/' . $content_view; ?></body>
+<body>
+<nav>
+    <a href="/">Главная</a> |
+    <a href="/?url=about">О нас</a> |
+    <a href="/?url=contacts">Контакты</a>
+</nav>
+<hr>
+<?php include 'application/views/' . $content_view; ?></body>
 
 </html>
